@@ -17,5 +17,9 @@
     "default_title": "timer Extension Action Title",
     "default_popup": "popup/popup.html"
   },
-  "options_page": "options/options.html"
+  "options_page": "options/options.html",
+  "permissions": ["storage", "alarms", "notifications"],
+  "background": {
+    "service_worker": "background.js"
+  }
 }
